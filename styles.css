@@ -41,7 +41,7 @@ ol,ul {
   background-image: url('images/PinkPaper.jpg');
 }
 
-.wrapper {
+#wrapper {
   width: 70%;
   margin: 0 auto;
   text-align: center;
