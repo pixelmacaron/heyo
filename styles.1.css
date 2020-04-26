@@ -14,14 +14,15 @@ p {
   font-size: 20px;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 
-.black-text-shadow {
-  text-shadow: 2px 2px rgb(124, 124, 124);    
-}
-
-.pink-text-shadow {
-  text-shadow: 2px 2px rgb(207, 135, 126);
+p, ol, ul {
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 214, 190);
+  text-shadow: 2px 2px black;    
 }
 
 img, video {
@@ -37,21 +38,6 @@ ol,ul {
   text-align:center;
 }
 
-.pink-paper {
+p,ol,ul {
   background-image: url('images/PinkPaper.jpg');
-}
-
-.wrapper {
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.box {
-  float: left;
-  width: 40%;
-  padding: 30px;
-  border: 3px solid white;
-  border-radius: 20px;
-  background-color: rgb(255, 214, 190);
 }
