@@ -9,22 +9,15 @@ h1,h2 {
   text-shadow: 3px 3px black;
 }
 
-p {
+p,ol,ul {
   font-family: monospace;
   font-size: 20px;
   color: white;
   text-align: center;
-}
-
-.black-text-shadow {
-  text-shadow: 2px 2px rgb(124, 124, 124);    
-}
-
-.pink-text-shadow {
   text-shadow: 2px 2px rgb(207, 135, 126);
 }
 
-img, video {
+  video {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -37,19 +30,15 @@ ol,ul {
   text-align:center;
 }
 
-.pink-paper {
-  background-image: url('images/PinkPaper.jpg');
-}
-
 #wrapper {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
 .box {
   float: left;
-  width: 40%;
+  width: 50%;
   padding: 30px;
   margin-right: 10px;
   margin-bottom: 40px;
@@ -58,6 +47,57 @@ ol,ul {
   background-color: rgb(255, 214, 190);
 }
 
+.box-sharp {
+  float: left;
+  width: 40%;
+  padding: 30px;
+  margin-bottom: 40px;
+  border: 3px solid white;
+  background-color: rgb(255, 214, 190);
+}
+
 .vid {
  margin-top: 10px;
+} 
+/* 
+* {
+  box-sizing: border-box;
+} */
+
+.column33 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.column80 {
+  float: left;
+  width: 75%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-left: 5%
+}
+
+.column20 {
+  float: right;
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image-styles {
+  width:320px;
+  height:256px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
