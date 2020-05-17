@@ -38,8 +38,19 @@ ol,ul {
 
 .box {
   float: left;
-  width: 50%;
-  padding: 30px;
+  width: 44%;
+  padding: 31px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: rgb(255, 214, 190);
+}
+
+.box2 {
+  float: right;
+  width: 44%;
+  padding: 31px;
   margin-right: 10px;
   margin-bottom: 40px;
   border: 3px solid white;
