@@ -1,0 +1,86 @@
+article, aside, main, header, footer {
+    display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, article, asidem footerm header, main, nav, section{
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    background-color:#F0A868;
+    color: #FCE1BB;
+    padding: 10px 20px;
+}
+
+body {
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6A8D73;
+    color:#6A8D73;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;    
+}
+
+nav {
+    background-color:rgb(253, 216, 165);
+    padding: 5px;
+    margin-top: 1px;
+}
+
+li a {
+    color:#6A8D73;
+}
+
+li {
+    display: inline;
+    margin-left:15px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+section {
+    background-color:#FCE1BB;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+article {
+    background-color: beige;
+    margin-top: 5px;
+    padding: 10px 15px;
+}
+
+main {
+    width: 640px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 270px;
+    float: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.green {
+    background-color: #E4FFE1;
+}
+
+footer {
+    clear: both;
+    background-color: #FCE1BB;
+    color: #6A8D73;
+    padding: 5px 20px;
+}
+
+.image-styles {
+    width:270px;
+    height:230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

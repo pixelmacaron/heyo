@@ -1,118 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title> HTML and CSS test by Yashvi</title>
+    <meta charset="UTF-8">
+    <title>News</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-  <h1> Yashvi's Webpage </h1>
+    <header class="banner">
+        <h1>News</h1>
+        <p>Local and National News</p>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/watch?v=9gTw2EDkaDQ">Home</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=9gTw2EDkaDQ">Archives</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=9gTw2EDkaDQ">About</a>
+            </li>
 
-  <div class="row">
-    <div class="column33">
-      <img src="images/CuteLick.gif" alt="Cat Gif" class="image-styles" ;>
-    </div>
-    <div class="column33">
-      <img src="images/CuteCat.gif" alt="Cat Gif" class="image-styles" ;>
-    </div>
-    <div class="column33">
-      <img src="images/SleepyCat.gif" alt="Cat Gif" class="image-styles" ;>
-    </div>
-  </div>
+        </ul>
+    </nav>
 
-  <h2> About: </h2>
-  <div class="row">
-    <div class="column80 box-sharp">
-      <p class='pink-text-shadow'> I made this website on Github. I used HTML and CSS. HTML is a programming language, in which you can manke webpages.
-        CSS allows you to decorate those pages, and make them look nice. You can do a lot using both of them together.
-      </p>
-    </div>
-    <div class="column20">
-      <img src="images/KawaiiSprout.gif" alt="Cat Gif" class="rounded" style="width:200px;">
-    </div>
-  </div>
-  <br>
-  <h2> HTML and CSS in detail</h2>
+    <main>
+        <section>
+            <h2>Local News</h2>
+            <article>
+                <header>
+                    <h3>Fire Fighters Rescue Man From Building</h3>
+                    <p>(Author, Date)</p>
+                </header>
+                <p>This is the story. This is is the story. This is the story.</p>
+                <p>This is the story. This is is the story. This is the story.</p>
+            </article>
 
-  <div id="wrapper">
-    <div class="box">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Porta non pulvinar neque laoreet suspendisse
-        interdum consectetur libero. Eros in cursus turpis massa tincidunt. Nunc congue nisi vitae suscipit. Nec ullamcorper
-        sit amet risus nullam eget. Habitasse platea dictumst vestibulum rhoncus. Elit ut aliquam purus sit amet luctus venenatis
-        lectus magna. Quam lacus suspendisse faucibus interdum posuere. Scelerisque eleifend donec pretium vulputate sapien
-        nec.
-      </p>
-    </div>
-    <div class="box2">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Porta non pulvinar neque laoreet suspendisse
-        interdum consectetur libero. Eros in cursus turpis massa tincidunt. Nunc congue nisi vitae suscipit. Nec ullamcorper
-        sit amet risus nullam eget. Habitasse platea dictumst vestibulum rhoncus. Elit ut aliquam purus sit amet luctus venenatis
-        lectus magna. Quam lacus suspendisse faucibus interdum posuere. Scelerisque eleifend donec pretium vulputate sapien
-        nec.
-      </p>
-    </div>
-  </div>
+            <article>
+                <header>
+                    <h3>New Library to be Built</h3>
+                    <p>(Author, Date)</p>
+                </header>
+                <p>This is the story. This is is the story. This is the story.</p>
+                <p>This is the story. This is is the story. This is the story.</p>
+            </article>
+        </section>
 
-  <br>
-  <video class='vid' width="320" height="240" controls>
-    <source src="videos/movie.mp4" type="video/mp4">
-    <source src="videos/movie.ogg" type="video/ogg"> Your browser does not support the video tag.
-  </video>
-  <br>
-  <br>
-  <h2>Lists</h2>
-  <p>One thing that you can do with HTML is make a list. It can be ordered, or unordered. Here are
-    <br> a few examples: </p>
-  <h2>Top 5 pets in the world</h2>
-  <ol>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-  </ol>
+        <section>
+            <h2>National News</h2>
+            <article>
+                <header>
+                    <h3>Snow Storm is Making Travel Difficult</h3>
+                    <p>(Author, Date)</p>
+                </header>
+                <p>This is the story. This is is the story. This is the story.</p>
+                <p>This is the story. This is is the story. This is the story.</p>
+            </article>
 
-  <h2>What you need to make cookies</h2>
-  <ul>
-    <li>item</li>
-    <li>item</li>
-    <li>item</li>
-    <li>item</li>
-    <li>item</li>
-    <li>item</li>
-  </ul>
+            <article>
+                <header>
+                    <h3>Thousands Are Without Power</h3>
+                    <p>(Author, Date)</p>
+                </header>
+                <p>This is the story. This is is the story. This is the story.</p>
+                <p>This is the story. This is is the story. This is the story.</p>
+            </article>
+        </section>
+    </main>
 
-  <h2>Code Examples</h2>
-  <p>
-    I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br> I will place text here I will place text here I will place text here I will place text here
-    <br>
-  </p>
+    <aside class="green">
+        <h2>Be a News Reporter</h2>
+        <p>If you see news happening - send us a text</p>
+    </aside>
 
-  <p>
-    Want to check out my other webpages? Here are the links!
-    <br>
-    <a href="https://pixelmacaron.github.io/practice/" target="_blank">I used a HTML5 tutorial to make this webpage!</a>
-    <br>
-    <br>
-    <a href="https://pixelmacaron.github.io/practice/index00.html" target="_blank">This was my first webpage! It didn't orginally look like this, but because of some formatting, it changed.</a>
-    <br>
-    <br>
-    <a href="https://pixelmacaron.github.io/practice/index.1" target="_blank">This was my second webpage. This was when I started to format everything..</a>
+    <aside class="green">
+        <img src="images/CutePlant.gif" alt="Plant" class="image-styles" ;>
+    </aside>
 
+    <aside>
+        <audio controls autoplay>
+            <source src="audio/WebsiteExplanation.m4a" type="audio/ogg">
+            <source src="audio/WebsiteExplanation.m4a" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>
+        </audio>
+    </aside>
+
+    <footer>
+        <p>Footer Information Here</p>
+    </footer>
 </body>
 
 </html>
