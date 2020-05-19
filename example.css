@@ -60,11 +60,14 @@ main {
 }
 
 aside {
-    background-color: #E4FFE1;
     width: 270px;
     float: right;
     padding: 20px;
     margin-top: 10px;
+}
+
+.green {
+    background-color: #E4FFE1;
 }
 
 footer {
@@ -73,3 +76,11 @@ footer {
     color: #6A8D73;
     padding: 5px 20px;
 }
+
+.image-styles {
+    width:270px;
+    height:230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
