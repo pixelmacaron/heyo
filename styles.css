@@ -2,12 +2,18 @@ article, aside, main, header, footer {
   display: block;
 }
 
-html, body, h1, h2, h3, ul, li, a, p, article, asidem footerm header, main, nav, section{
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
   padding: 0;
   margin: 0;
 }
 
 .banner {
+  background-color:#F0A868;
+  color: #FCE1BB;
+  padding: 10px 20px;
+}
+
+.banner2 {
   background-color:#F0A868;
   color: #FCE1BB;
   padding: 10px 20px;
@@ -47,6 +53,13 @@ section {
   padding: 5px;
 }
 
+.section {
+  background-color:#FCE1BB;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+
 article {
   background-color: beige;
   margin-top: 5px;
@@ -54,9 +67,12 @@ article {
 }
 
 main {
-  width: 640px;
   float: left;
   margin-bottom: 10px;
+}
+
+.mainwide {
+  width: 640px;
 }
 
 aside {
@@ -83,4 +99,29 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+mark {
+  background-color:#F0A868;
+}
+
+.pinkheader {
+  background-color: #FCE1BB
+}
+
+.learnwide {
+  width: 950px;
+}
+
+.learnsection {
+  width: 447px;
+  margin-block-end: 5px;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
 }
