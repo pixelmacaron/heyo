@@ -13,12 +13,6 @@ html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav,
   padding: 10px 20px;
 }
 
-.banner2 {
-  background-color:#F0A868;
-  color: #FCE1BB;
-  padding: 10px 20px;
-}
-
 body {
   width:960px;
   margin-left: auto;
@@ -114,7 +108,8 @@ mark {
 }
 
 .learnsection {
-  width: 465px;
+  width: 471px;
+  height: 1139px;
   margin-block-end: 5px;
 }
 
