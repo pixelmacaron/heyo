@@ -120,3 +120,7 @@ mark {
 .floatright {
   float: right;
 }
+
+.newspaper {
+  column-count: 2;
+}
