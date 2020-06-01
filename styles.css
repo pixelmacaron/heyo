@@ -47,17 +47,11 @@ section {
   padding: 5px;
 }
 
-.section {
-  background-color:#FCE1BB;
-  margin-top: 5px;
-  padding: 5px;
-}
-
-
 article {
   background-color: beige;
   margin-top: 5px;
   padding: 10px 15px;
+  text-align: justify;
 }
 
 main {
@@ -109,12 +103,12 @@ mark {
 
 .learnsection {
   width: 470px;
-  height: 1139px;
+  height: auto;
   margin-block-end: 5px;
 }
 
 .floatleft {
-  float: left;
+  float: left;    
 }
 
 .floatright {
@@ -122,5 +116,20 @@ mark {
 }
 
 .newspaper {
-  column-count: 2;
+  column-count: 3;
+  text-align: justify;
+  height: auto;
+}
+.column2 {
+  width: 48%;
+}
+.column3 {
+  width: 31%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
